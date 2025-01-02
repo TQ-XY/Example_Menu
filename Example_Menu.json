@@ -1,6 +1,6 @@
 {
-    "accountId": "623af4e91f617214084cfcf5",
-    "locationId": "63e9e673fb7eb0a781d60080",
+    "accountId": "{{accountId}}",
+    "locationId": "{{locationId}}",
     "products": [
         {
             "name": "Add a side",
@@ -9,8 +9,10 @@
                 "en": "Choose a side",
                 "es": "Elige tu acompañamiento",
                 "fr": "Choisissez votre garniture",
-                "nl": "Kies je bijgerecht"
-            },
+                "nl": "Kies je bijgerecht",
+                "ar": "اختر طبقك الجانبي",
+                "el": "Διαλέξτε ακόμα"
+              },
             "descriptionTranslations": {},
             "productType": 3,
             "plu": "MOD-02",
@@ -58,8 +60,10 @@
                 "en": "Rare",
                 "es": "Poco hecho",
                 "fr": "Saignant",
-                "nl": "Rood"
-            },
+                "nl": "Rood",
+                "ar": "غير ناضج جيدا",
+                "el": "Ωμό"
+              },
             "descriptionTranslations": {},
             "productType": 2,
             "plu": "COOK-01",
@@ -83,8 +87,10 @@
                 "en": "Medium Rare",
                 "es": "Al punto",
                 "fr": "À point",
-                "nl": "Half doorbakken"
-            },
+                "nl": "Half doorbakken",
+                "ar": "مُتَوَسِّط النُضْجِ",
+                "el": "Μισοψημένο"
+              },
             "descriptionTranslations": {},
             "productType": 2,
             "plu": "COOK-02",
@@ -108,9 +114,17 @@
                 "en": "Fries",
                 "es": "Patatas fritas",
                 "fr": "Frites",
-                "nl": "Frietjes"
-            },
-            "descriptionTranslations": {},
+                "nl": "Frietjes",
+                "ar": "بطاطس مقلية",
+                "ελ": "Πατάτες"
+              },
+            "descriptionTranslations": {
+                "es": "Patatas fritas",
+                "fr": "Frites",
+                "nl": "Frietjes",
+                "ar": "بطاطس مقلية",
+                "ελ": "Πατάτες"
+              },
             "productType": 2,
             "plu": "SI-01",
             "posProductId": "POS-ID-006",
@@ -131,12 +145,19 @@
             "name": "Salad",
             "description": "",
             "nameTranslations": {
-                "en": "Salad",
                 "es": "Ensalada",
                 "fr": "Salade",
-                "nl": "Salade"
+                "nl": "Salade",
+                "ar": "سلطة",
+                "ελ": "Σαλάτα"
             },
-            "descriptionTranslations": {},
+            "descriptionTranslations": {
+                "es": "Ensalada",
+                "fr": "Salade",
+                "nl": "Salade",
+                "ar": "سلطة",
+                "ελ": "Σαλάτα"
+              },
             "productType": 2,
             "plu": "SI-02",
             "posProductId": "POS-ID-007",
@@ -156,12 +177,19 @@
             "name": "Mashed Potato",
             "description": "",
             "nameTranslations": {
-                "en": "Mashed Potato",
                 "es": "Puré de patata",
                 "fr": "Purée de pommes de terre",
-                "nl": "Aardappelpuree"
+                "nl": "Aardappelpuree",
+                "ar": "البطاطا المهروسة",
+                "el": "Πουρές πατάτας"
             },
-            "descriptionTranslations": {},
+            "descriptionTranslations": {
+                "es": "Puré de patata",
+                "fr": "Purée de pommes de terre",
+                "nl": "Aardappelpuree",
+                "ar": "البطاطا المهروسة",
+                "el": "Πουρές πατάτας"
+              },
             "productType": 2,
             "plu": "SI-03",
             "posProductId": "POS-ID-008",
@@ -780,8 +808,10 @@
                 "en": "Delicious Steak Frites",
                 "es": "Deliciosos Bistecs Fritos",
                 "fr": "Steak Frites Délicieux",
-                "nl": "Heerlijke Biefstuk Frites"
-            },
+                "nl": "Heerlijke Biefstuk Frites",
+                "ar": "شريحة لحم فريتس",
+                "el": "Νοστιμη χοιρινή παντσέτα με πατάτες"
+              },
             "descriptionTranslations": {},
             "productType": 1,
             "plu": "STK-01",
@@ -811,8 +841,10 @@
                 "en": "Cooking Instructions",
                 "es": "Cocinado",
                 "fr": "Cuisson",
-                "nl": "Kook instructies"
-            },
+                "nl": "Kook instructies",
+                "ar": "تعليمات الطبخ",
+                "el": "Οδηγίες μαγειρέματος"
+              },
             "descriptionTranslations": {},
             "productType": 3,
             "plu": "MOD-01",
@@ -839,8 +871,10 @@
                 "en": "Well done",
                 "es": "Muy hecho",
                 "fr": "Bien cuit",
-                "nl": "Doorbakken"
-            },
+                "nl": "Doorbakken",
+                "ar": "مطبوخ جيدا",
+                "el": "καλοψημένο"
+              },
             "descriptionTranslations": {},
             "productType": 2,
             "plu": "COOK-03",
@@ -1039,7 +1073,94 @@
             "priceLevels": {},
             "deliveryTax": 9000,
             "takeawayTax": 9000,
-            "eatInTax": 9000
+            "eatInTax": 9000,"packaging": {
+                "count": 1,
+                "reusable": true,
+                "storageInstructions": ""
+            },
+            "supplementalInfo": {
+                "prepackaged": true,
+                "additives": [
+                    "COLORANT_UNSPECIFIED",
+                    "COLORANT_ADVERSE_EFFECT",
+                    "UNSPECIFIED",
+                    "PRESERVATIVES_UNSPECIFIED",
+                    "PRESERVATIVES_NITRITE_CURING_SALT",
+                    "PRESERVATIVES_NITRATE",
+                    "PRESERVATIVES_NITRATE_CURING_SALT_AND_NITRATE",
+                    "ANTIOXIDANT",
+                    "FLAVOURE_ENHANCER",
+                    "SULFITES",
+                    "BLACKENED",
+                    "WAXED",
+                    "PHOSPHATE",
+                    "SWEETENER_UNSPECIFIED",
+                    "SWEETENER_PHENYLALANINE",
+                    "SWEETENER_LAXATIVE",
+                    "CAFFEINE_UNSPECIFIED",
+                    "CAFFEINE_HIGH_CAFFEINE",
+                    "CAFFEINE_CAFFEINE",
+                    "QUININE",
+                    "GENETICALLY_MODIFIED",
+                    "ACIDIFIERS",
+                    "STABILISERS",
+                    "PROTEIN_UNSPECIFIED",
+                    "PROTEIN_MILK_PROTEIN",
+                    "PROTEIN_STARCH",
+                    "PROTEIN_EGG_WHITE"
+                ],
+                "deposit": 1,
+                "ingredients": [
+                    "Water",
+                    "Sugar"
+                ],
+                "instructionsForUse": "",
+                "legalName": "",
+                "fbo": {
+                    "name": "",
+                    "address": "",
+                    "brand": "",
+                    "countryOfOrigin": ""
+                }
+            },
+            "nutritionalInfo": {
+                "netQuantity": {
+                    "amount": 2,
+                    "countUnitDescription": "gram",
+                    "unitType": 1
+                },
+                "servingSize": {
+                    "amount": 2,
+                    "countUnitDescription": "gram",
+                    "unitType": 1
+                },
+                "fat": 1,
+                "sugar": 1,
+                "saturatedFat": 1,
+                "carbohydrates": 1,
+                "protein": 1,
+                "salt": 1,
+                "monoUnsaturatedFat": 1,
+                "polyUnsaturatedFat": 1,
+                "starch": 1,
+                "sodium": 1,
+                "fiber": 1,
+                "vitaminC": 1,
+                "calcium": 1,
+                "magnesium": 1,
+                "chloride": 1,
+                "fluoride": 1,
+                "potassium": 1,
+                "polyols": 1
+            },
+            "beverageInfo": {
+                "caffeine": 1,
+                "alcohol": 1
+            },
+            "calories": 200,
+            "caloriesRangeHigh": 300,
+            "isVariant": false
+
         },
         {
             "name": "Veggie Burger",
@@ -1696,27 +1817,33 @@
     "categories": [
         {
             "name": "Steak & Burgers",
-            "posCategoryId": "STK"
+            "posCategoryId": "STK",
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/618a2c5306a6208df4e9d061/Steaks%20and%20Burgers-6772a08c467817883c7ae27d.jpg"
         },
         {
             "name": "Sides",
-            "posCategoryId": "SD"
+            "posCategoryId": "SD",
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/618a2c5306a6208df4e9d061/Sides-6772a0ade9c10b3d77b489a4.jpg"
         },
         {
             "name": "Drinks",
-            "posCategoryId": "DRK"
+            "posCategoryId": "DRK",
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/618a2c5306a6208df4e9d061/Drinks-6772a0cd6448d47caa95c689.jpg"
         },
         {
             "name": "Poke Bowls",
-            "posCategoryId": "POKB"
+            "posCategoryId": "POKB",
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/618a2c5306a6208df4e9d061/Poke%20Bowls-6772a0e28d35e1e63aa25a50.jpg"
         },
         {
             "name": "Pizzas",
-            "posCategoryId": "PZ"
+            "posCategoryId": "PZ",
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/618a2c5306a6208df4e9d061/Pizza-6772a0fb8d35e1e63aa25a53.jpg"
         },
         {
             "name": "Chicken",
-            "posCategoryId": "CHK"
+            "posCategoryId": "CHK",
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/618a2c5306a6208df4e9d061/Chicken-6772a111d6ff7c6facadf7ea.jpeg"
         }
     ]
 }
