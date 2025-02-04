@@ -997,7 +997,10 @@
             "subProducts": [
                 "P-BURG-CHK",
                 "P-BURG-CHE",
-                "P-BURG-VEG"
+                "P-BURG-VEG",
+                "DLX1",
+                "DLX2",
+                "DLX3"
             ],
             "productTags": [],
             "posCategoryIds": [],
