@@ -998,9 +998,9 @@
                 "P-BURG-CHK",
                 "P-BURG-CHE",
                 "P-BURG-VEG",
-                "DLX1",
-                "DLX2",
-                "DLX3"
+                "DLX-1",
+                "DLX-2",
+                "DLX-3"
             ],
             "productTags": [],
             "posCategoryIds": [],
