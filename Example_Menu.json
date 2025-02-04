@@ -1812,7 +1812,79 @@
             "eatInTax": 9000,
             "productTags": [],
             "defaultQuantity": 1
-        }
+        },
+        {
+            "name": "Texas Burger",
+            "description": "Texan Burgers",
+            "productType": 1,
+            "plu": "DLX-1",
+            "posProductId": "POS-ID-026",
+            "posProductCategoryId": "",
+            "subProducts": [
+              "INGRD"
+            ],
+            "posCategoryIds": [
+              "STK"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/6222076ca8ba4844bf518425/Texas Burger-671b5a198f7eac816d00a0c1.jpeg",
+            "max": 0,
+            "min": 0,
+            "price": 1000,
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "posValues": {
+              "overloads": null
+            }
+          },
+          {
+            "name": "Mexican Burger",
+            "description": "",
+            "productType": 1,
+            "plu": "DLX-2",
+            "posProductId": "POS-ID-026",
+            "posProductCategoryId": "",
+            "subProducts": [
+              "INGRD"
+            ],
+            "posCategoryIds": [
+              "STK"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/6222076ca8ba4844bf518425/Mexican Burger-671b5b9c53c3ce99059c97e6.jpeg",
+            "max": 0,
+            "min": 0,
+            "price": 1100,
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "posValues": {
+              "overloads": null
+            }
+          },
+          {
+            "name": "Australian Burger",
+            "description": "",
+            "productType": 1,
+            "plu": "DLX-3",
+            "posProductId": "POS-ID-026",
+            "posProductCategoryId": "",
+            "subProducts": [
+              "INGRD"
+            ],
+            "posCategoryIds": [
+              "STK"
+            ],
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/6222076ca8ba4844bf518425/Australian Burger-671b5c1ff181526f23e2707c.jpg",
+            "max": 0,
+            "min": 0,
+            "price": 1200,
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000,
+            "posValues": {
+              "overloads": null
+            }
+          }
     ],
     "categories": [
         {
