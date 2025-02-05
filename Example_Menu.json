@@ -12,7 +12,7 @@
                 "nl": "Kies je bijgerecht",
                 "ar": "اختر طبقك الجانبي",
                 "el": "Διαλέξτε ακόμα"
-              },
+            },
             "descriptionTranslations": {},
             "productType": 3,
             "plu": "MOD-02",
@@ -40,12 +40,10 @@
             "name": "Deluxe Burger (Pick and Choose)",
             "posProductId": "POS-ID-0001",
             "posCategoryIds": [
-                "BURG"
+                "STK"
             ],
             "subProducts": [
-                "BNDL-BRG",
-                "MG-FRS",
-                "UPSLL-01"
+                "BNDL-1"
             ],
             "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/5ff6ee089328c8aefeeabe33/burger-62286be78c506f015be60190.jpeg",
             "description": "",
@@ -63,7 +61,7 @@
                 "nl": "Rood",
                 "ar": "غير ناضج جيدا",
                 "el": "Ωμό"
-              },
+            },
             "descriptionTranslations": {},
             "productType": 2,
             "plu": "COOK-01",
@@ -90,7 +88,7 @@
                 "nl": "Half doorbakken",
                 "ar": "مُتَوَسِّط النُضْجِ",
                 "el": "Μισοψημένο"
-              },
+            },
             "descriptionTranslations": {},
             "productType": 2,
             "plu": "COOK-02",
@@ -117,14 +115,14 @@
                 "nl": "Frietjes",
                 "ar": "بطاطس مقلية",
                 "ελ": "Πατάτες"
-              },
+            },
             "descriptionTranslations": {
                 "es": "Patatas fritas",
                 "fr": "Frites",
                 "nl": "Frietjes",
                 "ar": "بطاطس مقلية",
                 "ελ": "Πατάτες"
-              },
+            },
             "productType": 2,
             "plu": "SI-01",
             "posProductId": "POS-ID-006",
@@ -157,7 +155,7 @@
                 "nl": "Salade",
                 "ar": "سلطة",
                 "ελ": "Σαλάτα"
-              },
+            },
             "productType": 2,
             "plu": "SI-02",
             "posProductId": "POS-ID-007",
@@ -189,7 +187,7 @@
                 "nl": "Aardappelpuree",
                 "ar": "البطاطا المهروسة",
                 "el": "Πουρές πατάτας"
-              },
+            },
             "productType": 2,
             "plu": "SI-03",
             "posProductId": "POS-ID-008",
@@ -390,6 +388,29 @@
                 "P-FRS-S",
                 "P-FRS-M",
                 "P-FRS-L"
+            ],
+            "productTags": [],
+            "posCategoryIds": [],
+            "max": 1,
+            "min": 1,
+            "priceLevels": {},
+            "deliveryTax": 9000,
+            "takeawayTax": 9000,
+            "eatInTax": 9000
+        },
+        {
+            "name": "Select your Burger",
+            "description": "",
+            "nameTranslations": {},
+            "descriptionTranslations": {},
+            "productType": 3,
+            "plu": "BNDL-1",
+            "posProductId": "POS-ID-021",
+            "posProductCategoryId": "",
+            "subProducts": [
+                "DLX-1",
+                "DLX-2",
+                "DLX-3"
             ],
             "productTags": [],
             "posCategoryIds": [],
@@ -811,7 +832,7 @@
                 "nl": "Heerlijke Biefstuk Frites",
                 "ar": "شريحة لحم فريتس",
                 "el": "Νοστιμη χοιρινή παντσέτα με πατάτες"
-              },
+            },
             "descriptionTranslations": {},
             "productType": 1,
             "plu": "STK-01",
@@ -844,7 +865,7 @@
                 "nl": "Kook instructies",
                 "ar": "تعليمات الطبخ",
                 "el": "Οδηγίες μαγειρέματος"
-              },
+            },
             "descriptionTranslations": {},
             "productType": 3,
             "plu": "MOD-01",
@@ -874,7 +895,7 @@
                 "nl": "Doorbakken",
                 "ar": "مطبوخ جيدا",
                 "el": "καλοψημένο"
-              },
+            },
             "descriptionTranslations": {},
             "productType": 2,
             "plu": "COOK-03",
@@ -1076,7 +1097,8 @@
             "priceLevels": {},
             "deliveryTax": 9000,
             "takeawayTax": 9000,
-            "eatInTax": 9000,"packaging": {
+            "eatInTax": 9000,
+            "packaging": {
                 "count": 1,
                 "reusable": true,
                 "storageInstructions": ""
@@ -1163,7 +1185,6 @@
             "calories": 200,
             "caloriesRangeHigh": 300,
             "isVariant": false
-
         },
         {
             "name": "Veggie Burger",
@@ -1824,10 +1845,10 @@
             "posProductId": "POS-ID-026",
             "posProductCategoryId": "",
             "subProducts": [
-              "INGRD"
+                "INGRD"
             ],
             "posCategoryIds": [
-              "STK"
+                "STK"
             ],
             "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/6222076ca8ba4844bf518425/Texas Burger-671b5a198f7eac816d00a0c1.jpeg",
             "max": 0,
@@ -1837,10 +1858,10 @@
             "takeawayTax": 9000,
             "eatInTax": 9000,
             "posValues": {
-              "overloads": null
+                "overloads": null
             }
-          },
-          {
+        },
+        {
             "name": "Mexican Burger",
             "description": "",
             "productType": 1,
@@ -1848,10 +1869,10 @@
             "posProductId": "POS-ID-026",
             "posProductCategoryId": "",
             "subProducts": [
-              "INGRD"
+                "INGRD"
             ],
             "posCategoryIds": [
-              "STK"
+                "STK"
             ],
             "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/6222076ca8ba4844bf518425/Mexican Burger-671b5b9c53c3ce99059c97e6.jpeg",
             "max": 0,
@@ -1861,10 +1882,10 @@
             "takeawayTax": 9000,
             "eatInTax": 9000,
             "posValues": {
-              "overloads": null
+                "overloads": null
             }
-          },
-          {
+        },
+        {
             "name": "Australian Burger",
             "description": "",
             "productType": 1,
@@ -1872,10 +1893,10 @@
             "posProductId": "POS-ID-026",
             "posProductCategoryId": "",
             "subProducts": [
-              "INGRD"
+                "INGRD"
             ],
             "posCategoryIds": [
-              "STK"
+                "STK"
             ],
             "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/6222076ca8ba4844bf518425/Australian Burger-671b5c1ff181526f23e2707c.jpg",
             "max": 0,
@@ -1885,15 +1906,30 @@
             "takeawayTax": 9000,
             "eatInTax": 9000,
             "posValues": {
-              "overloads": null
+                "overloads": null
             }
-          }
+        }
     ],
     "categories": [
         {
             "name": "Steak & Burgers",
             "posCategoryId": "STK",
             "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/618a2c5306a6208df4e9d061/Steaks%20and%20Burgers-6772a08c467817883c7ae27d.jpg"
+        },
+        {
+            "name": "Chicken",
+            "posCategoryId": "CHK",
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/618a2c5306a6208df4e9d061/Chicken-6772a111d6ff7c6facadf7ea.jpeg"
+        },
+        {
+            "name": "Pizzas",
+            "posCategoryId": "PZ",
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/618a2c5306a6208df4e9d061/Pizza-6772a0fb8d35e1e63aa25a53.jpg"
+        },
+        {
+            "name": "Poke Bowls",
+            "posCategoryId": "POKB",
+            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/618a2c5306a6208df4e9d061/Poke%20Bowls-6772a0e28d35e1e63aa25a50.jpg"
         },
         {
             "name": "Sides",
@@ -1904,21 +1940,6 @@
             "name": "Drinks",
             "posCategoryId": "DRK",
             "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/618a2c5306a6208df4e9d061/Drinks-6772a0cd6448d47caa95c689.jpg"
-        },
-        {
-            "name": "Poke Bowls",
-            "posCategoryId": "POKB",
-            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/618a2c5306a6208df4e9d061/Poke%20Bowls-6772a0e28d35e1e63aa25a50.jpg"
-        },
-        {
-            "name": "Pizzas",
-            "posCategoryId": "PZ",
-            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/618a2c5306a6208df4e9d061/Pizza-6772a0fb8d35e1e63aa25a53.jpg"
-        },
-        {
-            "name": "Chicken",
-            "posCategoryId": "CHK",
-            "imageUrl": "https://storage.googleapis.com/ikona-bucket-staging/images/618a2c5306a6208df4e9d061/Chicken-6772a111d6ff7c6facadf7ea.jpeg"
         }
     ]
 }
